@@ -1,0 +1,15 @@
+host: Pod
+apiVersion: v1
+metadata:
+ name: resources
+spec:
+ containers:
+  - name: nginx
+    image: nginx 
+    resources:
+     request:
+      memory: "64Mi"
+      cpu: "250m"
+     limits:
+      memory: "64Mi"
+      cpu: "250m" 
