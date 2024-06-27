@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+ name: annotations
+ labels:
+  course: devops
+  trainer: siva 
+ annotations:
+  created by: 'naveen'
+  jenkins.build.url: 'https://jeinkins.io'
+spec:
+ containers:
+  - name: nginx
+    image: nginx  
