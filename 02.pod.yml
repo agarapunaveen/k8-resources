@@ -1,0 +1,9 @@
+kind: pod
+apiVersion: v1
+meadata:
+ name: nginx
+spec:
+ name: nginx
+ image: nginx
+ ports:
+  - 80 
