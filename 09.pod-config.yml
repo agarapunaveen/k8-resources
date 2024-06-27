@@ -1,0 +1,19 @@
+kind: Pod
+apiVersion: v1
+metadata:
+ name: pod-config
+spec:
+ containers:
+  - name: nginx
+    image: nginx
+    env:
+     - name: course
+       valueFrom:
+        configMapKeyRef:
+         name: naveencloud
+         key: course
+     - name: trainer
+       valueFrom:
+        configMapKeyRef:
+         name: naveencloud
+         key: trainer            
