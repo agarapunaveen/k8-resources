@@ -1,7 +1,7 @@
-kind: Pod
+kind: Service
 apiVersion: v1
 metadata:
- name: nginx
+ name: my-service
 spec:
  selector:
   name: frontend
