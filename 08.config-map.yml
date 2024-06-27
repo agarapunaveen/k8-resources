@@ -3,7 +3,7 @@ kind: configMap
 metadata:
  name: naveencloud
 data:
-  course: "devops"
-  trainer: "siva"
-  url: "https://github.com/agarapunaveen/k8-resources/blob/master/07.resource.yml"
+ course: "devops"
+ trainer: "siva"
+ url: "https://github.com/agarapunaveen/k8-resources/blob/master/07.resource.yml"
       
