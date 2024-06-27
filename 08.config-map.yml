@@ -1,9 +1,9 @@
-kind: configMap
 apiVersion: v1
+kind: configMap
 metadata:
  name: naveencloud
 data:
   course: "devops"
-  trainder: "siva"
+  trainer: "siva"
   url: "https://github.com/agarapunaveen/k8-resources/blob/master/07.resource.yml"
       
