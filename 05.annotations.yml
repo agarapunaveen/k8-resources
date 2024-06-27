@@ -6,7 +6,7 @@ metadata:
   course: devops
   trainer: siva 
  annotations:
-  created by: 'naveen'
+  created-by: 'naveen'
   jenkins.build.url: 'https://jeinkins.io'
 spec:
  containers:
