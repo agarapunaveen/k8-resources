@@ -2,12 +2,8 @@ kind: configMap
 apiVersion: v1
 metadata:
  name: naveencloud
-spec:
- containers:
-  - name: nginx
-    image: nginx
-    data:
-     course: "devops"
-     trainder: "siva"
-     url: "https://github.com/agarapunaveen/k8-resources/blob/master/07.resource.yml"
+data:
+  course: "devops"
+  trainder: "siva"
+  url: "https://github.com/agarapunaveen/k8-resources/blob/master/07.resource.yml"
       
