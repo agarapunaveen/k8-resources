@@ -4,7 +4,6 @@ metadata:
   name: ebs-dynamic
 spec:
   storageClassName: "ebx-dynamic" # Empty string must be explicitly set otherwise default StorageClass will be set
-  volumeName: ebs-claim 
   accessModes:
     - ReadWriteOnce
   resources:
@@ -25,8 +24,8 @@ spec:
     volumeMounts:
     - name: persistent-storage
       mountPath: /usr/share/nginx/html
-  # nodeSelector:  # whenver u want to assign a pod to particular reging you can use nodeSelector
-  #  topology.kubernetes.io/zone: us-east-1b     
+  nodeSelector:  # whenver u want to assign a pod to particular reging you can use nodeSelector
+   topology.kubernetes.io/zone: us-east-1b     
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
