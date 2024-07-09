@@ -40,6 +40,8 @@ spec:
     volumeMounts:
     - name: persistent-storage
       mountPath: /usr/share/nginx/html
+  nodeSelector:  # whenver u want to assign a pod to particular reging you can use nodeSelector
+   topology.kubernetes.io/zone: us-east-1b     
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
