@@ -43,7 +43,7 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: ebs-static # pv medatadata name
+      claimName: ebs-claim # pv medatadata name
 ---
 
 kind: Service
