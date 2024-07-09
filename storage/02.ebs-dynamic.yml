@@ -4,7 +4,7 @@ metadata:
   name: ebs-dynamic
 spec:
   storageClassName: "ebx-dynamic" # Empty string must be explicitly set otherwise default StorageClass will be set
-  volumeName: ebs-static # pv metadata name
+  volumeName: ebs-claim # pv metadata name
   accessModes:
     - ReadWriteOnce
   resources:
@@ -30,4 +30,4 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: ebs-dynamic # pvc medatadata name
+      claimName: ebs-claim # pvc medatadata name
