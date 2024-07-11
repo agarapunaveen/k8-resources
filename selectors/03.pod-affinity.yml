@@ -38,7 +38,7 @@ apiVersion: v1
 metadata:
  name: pod-3
  labels:
-  name: pod-1
+  name: pod-3
   purpose: affinity
 spec:
  affinity:
