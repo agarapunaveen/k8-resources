@@ -2,7 +2,9 @@ kind: Pod
 apiVersion: v1
 metadata:
  name: pod-1
- purpose: affinity
+ labels:
+  name: pod-1
+  purpose: affinity
 spec:
  containers:
  - name: nginx
