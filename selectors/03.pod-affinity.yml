@@ -9,7 +9,9 @@ spec:
  containers:
  - name: nginx
    image: nginx
+   
 ---
+
 kind: Pod
 apiVersion: v1
 metadata:
