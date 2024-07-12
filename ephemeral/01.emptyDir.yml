@@ -38,7 +38,7 @@ spec:
      mountPath: /usr/share/filebeat/filebeat.yml
      subPath: filebeat.yml
    - name: nginx-logs
-     mountPath: var/log/nginx/  
+     mountPath: /var/log/nginx/  
  volumes:
  - name: nginx-logs
    emptyDir: {}
