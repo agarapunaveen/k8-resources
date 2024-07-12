@@ -48,4 +48,6 @@ spec:
     items:
      - key: filebeat.yml
        path: filebeat.yml
-            
+       
+            # filebeat code url
+#https://vidhyanshu.medium.com/implement-filebeat-as-sidecar-to-export-logs-to-elastic-ffd2b1d02019
