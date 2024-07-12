@@ -22,7 +22,7 @@ data:
 ---
 apiVersion: v1
 kind: Pod
-metadat:
+metadata:
  name: nginx
 spec:
  containers:
